@@ -1,1 +1,227 @@
-/* You can add global styles to this file, and also import other style files */
+html, body, main, section, footer, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* HTML5 display-role reset for older browsers */
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /*********************/
+  
+  /* Custom CSS Starts */
+  
+  /*********************/
+  
+  body {
+    background-color: #505050;
+    color: #FFFFFF;
+  }
+  
+  h1 {
+    font-size: 37px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 33px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 21px;
+    color: #EF8543;
+    margin: 30px auto 0 auto;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+      width: 100%;
+      list-style: none;
+    background-color: black;
+      float: right;
+      margin: 0 auto;
+  }
+  
+  nav li img {
+    padding-right: 25px;
+    
+  }
+  
+  nav li {
+    padding: 10px 3%;
+    display: inline-block;
+  }
+  
+  nav li a {
+     font-size: 25px;
+     text-decoration: none;
+  }
+  
+  a {
+    color: #EF8543;
+  }
+  
+  a:hover {
+    color: #EB4714;
+  }
+  
+  footer {
+    margin: 0;
+    background-color: #000000;
+    position: relative;
+    height: 50px
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  .accent {
+    color: #EF8543;
+    /* Orange */
+  }
+  
+   section {
+    line-height: 1.7em;
+    text-align: justify;
+    background: black;
+  }
+   
+  section p {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .banner {
+    background-image: url("/assets/OldBookshelf80.jpeg");
+    height: 300px;
+    border-top: solid 1px #EF8543;
+    border-bottom: solid 1px #EF8543;
+  
+  }
+  
+  .banner h1 {
+    padding: 100px 0 0 10px;
+  }
+  
+  .column-container {
+    width: 100%;
+    vertical-align: top;
+    margin: 25px 0;
+    text-align: center;
+  }
+  
+  .column-container p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+  }
+  
+  .col1 {
+    width: 94vw;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1vw 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .col2 {
+    width: 45vw;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .8);
+    height: 300px;
+    vertical-align: top;
+    margin-left: 1vw;
+    margin-right: 1vw;
+   }
+  
+  
+  .col3 {
+    width: 30vw;
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(0, 0, 0, .6);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 300px;
+    border-radius: 10px;
+    border: #EF8543 solid 3px;
+  }
+  
+  .col3 img {
+    margin-top: 50px;
+  }
+  
+  .col3 p {
+    padding: 25px;
+    margin-top: 40px;
+    text-align: center;
+  
+  }
+  
+  .info {
+    height: 300px;
+  }
+  
+  .orange-background {
+    background-color: rgb(175, 51, 13)
+  }
+  
+  .newsletter {
+    background: rgb(131, 131, 131);
+    height: 30px;
+  }
+  
+  .newsletter input {
+    width: 50%;
+    text-align: center;
+  }
+  
+  @media (max-width: 945px) {
+    nav li a {
+      display: none;
+    }
+  }
