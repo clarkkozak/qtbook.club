@@ -1,32 +1,29 @@
-nav {
+footer {
+    margin: 0;
+    height: 45px;
     text-align: center;
+    border-top: 1px orange solid;
   }
   
-  nav ul {
+  footer ul {
       width: 100%;
+      height: 45px;
       list-style: none;
       background-color: #050505;
-      float: right;
       margin: 0 auto;
   }
-  
-  nav li img {
-    padding-right: 25px;
-    
-  }
-  
-  nav li {
-    padding: 10px 3%;
+   
+  footer li {
+    padding: 10px 100px;
     display: inline-block;
   }
   
-  nav li a {
+  footer li a {
      font-size: 25px;
      text-decoration: none;
      color: rgb(253, 217, 194);
-
   }
 
-  nav li a:hover {
+  footer li a:hover {
     color: rgb(255, 143, 109);
   }

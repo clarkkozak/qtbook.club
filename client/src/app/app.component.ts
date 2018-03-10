@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import {book, author} from './test';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -10,6 +8,4 @@ import {book, author} from './test';
 
 export class AppComponent {
     title = "Quantum Book Club";
-    book = book;
-    author = author;
 }
