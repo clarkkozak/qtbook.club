@@ -73,6 +73,34 @@ footer {
   height: 50px
 }
 
+section {
+  line-height: 1.7em;
+  text-align: justify;
+  background: black;
+}
+ 
+section p {
+  max-width: 90%;
+  margin: auto;
+}
+
+input[type=submit] {
+   background-color: #EF8543;
+   color: black;
+   height: 35px;
+   min-width: 70px;
+   font-weight: bold;
+   border-style: solid;
+   border-color: black;
+   border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #e47027;
+}
+
+
+
 .right {
   float: right;
 }
@@ -90,28 +118,7 @@ footer {
   /* Orange */
 }
 
- section {
-  line-height: 1.7em;
-  text-align: justify;
-  background: black;
-}
- 
-section p {
-  max-width: 90%;
-  margin: auto;
-}
 
-.banner {
-  background-image: url("/assets/OldBookshelf80.jpeg");
-  height: 300px;
-  border-top: solid 1px #EF8543;
-  border-bottom: solid 1px #EF8543;
-
-}
-
-.banner h1 {
-  padding: 100px 0 0 10px;
-}
 
 .column-container {
   width: 100%;

@@ -1,0 +1,16 @@
+
+form {
+    height: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+
+input {
+    text-align: center;
+    
+}
+
+.accent {
+    font-size: 21px;
+}
