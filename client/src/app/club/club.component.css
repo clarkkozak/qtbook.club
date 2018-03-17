@@ -1,0 +1,57 @@
+#title {
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.conatiner {
+    height: 900px;
+    position: relative;
+    display: block;
+}
+
+#filter {
+    width:  25%;
+    height: 580px;
+    margin: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+#output {
+    width: 65%;
+    height: 600px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.filter-option {
+    background-color: white;
+    margin: 5px;
+    float: left;
+    background-color: indigo;
+    width: 90%;
+}
+
+.filter-option p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+input[type="checkbox"] {
+    float: left;
+    margin: 10px;
+}
+
+.filter-option:checked {
+    background-color: gold
+}
+
+.host {
+    height: 100px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}

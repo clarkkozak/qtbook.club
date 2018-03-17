@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'club', component: ClubComponent },
   { path: 'account', component: AccountComponent },
-  { path: 'log-in', component: AccountComponent },
+  { path: 'log-in', component: LogInComponent },
   { path: 'sign-up', component: SignUpComponent },
   { path: 'contact', component: ContactComponent }
 ];

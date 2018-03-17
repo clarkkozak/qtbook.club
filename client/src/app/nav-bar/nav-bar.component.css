@@ -1,32 +1,34 @@
 nav {
-    text-align: center;
-  }
+  clear:both;
+  display: block;
+}
   
-  nav ul {
-      width: 100%;
-      list-style: none;
-      background-color: #050505;
-      float: right;
-      margin: 0 auto;
-  }
+nav ul {
+    width: 100%;
+    list-style: none;
+    background-color: #050505;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffa500;
+}
+
+nav li img {
+  padding-right: 25px;
   
-  nav li img {
-    padding-right: 25px;
+}
+
+nav li {
+  padding: 10px 3%;
+  display: inline-block;
+}
+
+nav li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(253, 217, 194);
     
-  }
-  
-  nav li {
-    padding: 10px 3%;
-    display: inline-block;
-  }
-  
-  nav li a {
-     font-size: 25px;
-     text-decoration: none;
-     color: rgb(253, 217, 194);
 
-  }
+}
 
-  nav li a:hover {
-    color: rgb(255, 143, 109);
-  }
+nav li a:hover {
+  color: rgb(255, 143, 109);
+}

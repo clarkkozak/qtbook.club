@@ -1,0 +1,59 @@
+.container {
+    height: 450px;
+    width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+form {
+    height: 50px;
+    width: 550px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+input {
+    text-align: center;
+    margin: 10px 20px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type="email"], input[type="text"] {
+    width: 500px;
+    height: 40px;
+    text-align: left;
+    font-size: 21px;
+    padding-left: 15px;
+
+}
+
+input[type="submit"] {
+    text-align: center;
+    width: 200px;
+    font-size: 21px;
+    /* position: absolute;
+    left: 150px; */
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    margin: 10px 20px;
+    padding: 9px;
+    font-family: inherit;
+    font-size: 21px;
+}
+
+::placeholder {
+    text-align: left;
+    font-size: 21px;
+}
+
+.social {
+    height: 100px;
+    width: inherit;
+}
+
